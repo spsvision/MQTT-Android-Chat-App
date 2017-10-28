@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#24252b</color>
+    <color name="colorPrimaryDark">#ad4401</color>
+    <color name="colorAccent">#EDA959</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="connectionGreens">#669900</color>
+    <color name="disconnectedReds">#de3131</color>
+
+</resources>

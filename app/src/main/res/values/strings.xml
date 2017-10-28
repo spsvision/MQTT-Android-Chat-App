@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MQTT-test</string>
+
+    <!-- MQTT Settings -->
+    <string name="mqtt_clientID">id</string>
+    <string name="mqtt_server">server IP</string>
+    <string name="mqtt_server_EXTERNAL">external Server IP</string><!--broker.hivemq.com-->
+    <string name="mqtt_username">username</string>
+    <string name="mqtt_password">password</string>
+    <string name="mqtt_port">-</string>
+    <integer name="mqtt_timeout">0</integer>
+    <integer name="mqtt_keepalive">0</integer>
+
+    <!-- MQTT Topics -->
+    <string name="BackEndPublish">app/topic/back_msg</string> <!-- add to documentation -->
+    <string name="OneEndPublish">app/topic/msg</string> <!-- add to documentation -->
+    <string name="StationConnection">app/topic/connection</string> <!-- add to documentation -->
+    <string name="action_internal_mqtt">Use internal MQTT</string>
+    <string name="action_external_mqtt">Use external MQTT</string>
+
+
+    <!-- UI strings -->
+    <string name='dateFormat'>dd/MM/yy \'at\' HH:mm:ss</string>
+    <string name="timestamp">&lt;br/&gt; &lt;small&gt; %1$s &lt;/small&gt;</string>
+    <string name="connectedto">Connected to </string>
+    <string name="disconnected">Disconnected from</string>
+    <string name="no_status">Unknown connection status to</string>
+    <string name="connecting">Connecting to</string>
+    <string name="disconnecting">Disconnecting from</string>
+    <string name="connectionError">An error occurred connecting to</string>
+    <string name="toast_pub_success">Published message: %1$s to topic: %2$s</string>
+    <string name="toast_sub_success">Subscribed to %1$s</string>
+    <string name="toast_disconnected">Disconnected</string>
+    <string name="toast_pub_failed">Failed to publish message: %1$s to topic: %2$s</string>
+    <string name="toast_sub_failed">Failed to subscribe to %1$s</string>
+    <string name="connection_lost">%1$s has lost connection to %2$s</string>
+    <string name="notifyTitle_connectionLost">MQTT Client Has Lost Connection</string>
+    <string name="messageRecieved">Received message %1$s &lt;br/&gt; &lt;small&gt;Topic: %2$s &lt;/small&gt; </string>
+    <string name="action_connect_serial">Waiting for status</string>
+    <string name="action_connect_udp">Waiting for status</string>
+
+</resources>

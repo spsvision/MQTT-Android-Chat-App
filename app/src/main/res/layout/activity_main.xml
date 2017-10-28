@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListView
+        android:id="@+id/list_of_messages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:dividerHeight="16dp"
+        android:layout_above="@+id/form"/>
+
+    <LinearLayout
+        android:id="@+id/form"
+        android:layout_width="fill_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFf1f1f1"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/list_of_messages"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteY="754dp"
+        tools:layout_editor_absoluteX="5dp">
+
+
+        <EditText
+            android:id="@+id/messageEditText"
+            android:layout_width="407dp"
+            android:layout_height="63dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/button1"
+            android:layout_toLeftOf="@+id/sendMessageButton"
+            android:layout_weight="1.03"
+            android:ems="10"
+            android:maxHeight="80dp" />
+
+        <ImageButton
+            android:id="@+id/sendMessageButton"
+            android:layout_width="55dp"
+            android:layout_height="59dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_send_black_24dp"
+            android:text="d" />
+
+    </LinearLayout>
+</RelativeLayout>
